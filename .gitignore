@@ -1,0 +1,133 @@
+# Unity 项目默认忽略文件
+# 生成的文件
+Temp/
+Library/
+Obj/
+Build/
+Builds/
+Assets/AssetStoreTools*
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.meta
+
+# 自动备份文件
+*.orig
+*.bak
+*.tmp
+
+# 编辑器临时文件
+*.swp
+*.swo
+*.swx
+
+# Unity Cloud Build
+*.unitycloudproject
+
+# Unity Package Manager
+Packages/manifest.json
+Packages/lock.json
+Packages/package-lock.json
+
+# Unity Analytics
+Analytics/
+
+# Unity Cloud Build artifacts
+Artifacts/
+
+# Unity Test Results
+TestResults/
+
+# Unity Cache Server
+CacheServer/
+
+# Unity Cloud Build artifacts
+Artifacts/
+
+# Unity Cloud Build cache
+Cache/
+
+# Unity Cloud Build logs
+Logs/
+
+# Unity Cloud Build settings
+Settings/
+
+# Unity Cloud Build temp files
+Temp/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+UserSettings/
+
+# Unity Cloud Build user preferences
+UserPreferences/
+
+# Unity Cloud Build user data
+UserData/
+
+# Unity Cloud Build user settings
+User
