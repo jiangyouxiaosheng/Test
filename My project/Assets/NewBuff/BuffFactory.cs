@@ -1,23 +1,23 @@
 
-/*public class BuffFactory
+public class BuffFactory
 {
-    public static BuffBase CreateBuff(string name, UnitBase c, BuffManager manager)
+    public static NewBuffBase CreateBuff(string name, UnitBase c, BuffManager manager)
     {
-        BuffBase buff = null;
-        if (name == "poisoned")
+        NewBuffBase buff = null;
+        /*if (name == "poisoned")
             buff = CreatePoisoned(c, manager);
         if (name == "hemophagia")
-            buff = CreateHemophagia(c, manager);
+            buff = CreateHemophagia(c, manager);*/
         return buff;
     }
-    private static BuffBase CreatePoisoned(CombatEntity c, BuffManager manager)
+    /*private static NewBuffBase CreatePoisoned(UnitBase c, BuffManager manager)
     {
         NewBuffBase poisoned = new PoisonedBuff(manager, c);
         return poisoned;
     }
-    private static BuffBase CreateHemophagia(CombatEntity c, BuffManager manager)
+    private static NewBuffBase CreateHemophagia(UnitBase c, BuffManager manager)
     {
         NewBuffBase hemophagia = new HemophagiaBuff(manager, c);
         return hemophagia;
-    }
-}*/
+    }*/
+}
