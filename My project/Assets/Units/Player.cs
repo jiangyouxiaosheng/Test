@@ -6,11 +6,11 @@ using UnityEngine;
 public class Player : UnitBase
 {
 
-  
-
+    
     private void Start()
     {
         Init("Player", 1, 1, 200, 100, Vector3.zero);
+      
     }
 
     public override void Die()
@@ -22,5 +22,9 @@ public class Player : UnitBase
     {
         
     }
-    
+
+    private void Update()
+    {
+        
+    }
 }

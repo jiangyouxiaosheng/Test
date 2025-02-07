@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public abstract  class UnitBase : MonoBehaviour
     public Vector3 Position { get; protected set; } // 角色位置（三维坐标）
 
    
+    public BuffManager BuffManager { get; protected set; }
     
     // 构造函数
     public void Init(string name, int level, int health, int maxHealth,int mana, Vector3 position)
@@ -27,7 +29,16 @@ public abstract  class UnitBase : MonoBehaviour
         Position = position;
     }
 
-  
+    private void Start()
+    {
+        BuffManager = new BuffManager(this);
+    }
+
+    private void Update()
+    {
+        BuffManager.OnUpdate();
+    }
+
 
     // 生命值恢复方法
     public void Heal(UnitBase by,int amount)
@@ -68,6 +79,7 @@ public abstract  class UnitBase : MonoBehaviour
     // 死亡方法（抽象方法，子类需要实现）
     public abstract void Die();
 
+    
     // 移动方法
     public void Move(Vector3 newPosition)
     {
