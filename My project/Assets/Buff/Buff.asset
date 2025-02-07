@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c51642c658303545b0a26579382ef57, type: 3}
+  m_Name: Buff
+  m_EditorClassIdentifier: 
+  buffName: "\u52A0\u8840"
+  icon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  duration: 10
+  isPermanent: 0
+  maxStacks: 3
+  visualEffect: {fileID: 0}
+  healPerSecond: 5

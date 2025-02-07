@@ -14,13 +14,14 @@ public abstract  class UnitBase : MonoBehaviour
     public Vector3 Position { get; protected set; } // 角色位置（三维坐标）
 
    
+    
     // 构造函数
-    protected UnitBase(string name, int level, int health, int mana, Vector3 position)
+    public void Init(string name, int level, int health, int maxHealth,int mana, Vector3 position)
     {
         Name = name;
         Level = level;
         Health = health;
-        MaxHealth = health;
+        MaxHealth = maxHealth;
         Mana = mana;
         MaxMana = mana;
         Position = position;

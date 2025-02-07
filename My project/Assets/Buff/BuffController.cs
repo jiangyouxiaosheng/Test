@@ -9,6 +9,7 @@ public class BuffController : MonoBehaviour
 
     public void AddBuff(UnitBase by,BuffBase buff)
     {
+        Debug.LogError("添加buff");
         if (activeBuffs.TryGetValue(buff, out BuffInstance existing))
         {
             existing.Refresh();

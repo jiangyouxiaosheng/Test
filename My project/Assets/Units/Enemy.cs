@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Enemy : UnitBase
 {
-    public Enemy(string name, int level, int health, int mana, Vector3 position) : base(name, level, health, mana, position)
+ 
+    private void Start()
     {
-        name = "敌人";
-        level = 1;
-        health = 100;
-        mana = 100;
-        position = position;
+        Init("Enemy", 1, 1, 200, 100, Vector3.zero);
     }
 
     public override void Die()
