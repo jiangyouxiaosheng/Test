@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7f33dd4dcbbd84384105a8b5f62794, type: 3}
+  m_Name: UIConfig
+  m_EditorClassIdentifier: 
+  uiPageAssetFolderPath: Assets/UI
+  m_configs:
+  - m_uiPageType: 1
+    m_pageReference:
+      m_AssetGUID: 4045bd970be4b4b43ae554b70f99965e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 500
+  - m_uiPageType: 2
+    m_pageReference:
+      m_AssetGUID: 1ddebb9224fb77e45bac86db6390218d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 500
+  - m_uiPageType: 3
+    m_pageReference:
+      m_AssetGUID: 8c72c4848b5236b42850270cbfd2aead
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 500
+  - m_uiPageType: 4
+    m_pageReference:
+      m_AssetGUID: f36181e05f3957f4f9917308421ec39e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 500
+  - m_uiPageType: 5
+    m_pageReference:
+      m_AssetGUID: 0913b3429d5b33f40b9692b649cd395e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 500
+  - m_uiPageType: 6
+    m_pageReference:
+      m_AssetGUID: 30fcad200ea1265478df8cb2858f458e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 400
+  - m_uiPageType: 7
+    m_pageReference:
+      m_AssetGUID: 50ba5b92e63a4954f9b80bbf45d58743
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 2
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 1000
+  - m_uiPageType: 8
+    m_pageReference:
+      m_AssetGUID: 2a11fa6dd55df3d4c8f679eb93b8cf2f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    m_layer: 1
+    m_multiPages: 1
+    m_cache: 0
+    m_isPage: 1
+    m_zIndex: 1000
+  m_layerDef:
+  - m_layerName: BaseLayer
+    m_multiPages: 1
+    m_ignoreLowLayerManage: 1
+  - m_layerName: PopupLayer
+    m_multiPages: 1
+    m_ignoreLowLayerManage: 1
+  - m_layerName: TopLayer
+    m_multiPages: 1
+    m_ignoreLowLayerManage: 1
+  - m_layerName: TeachLayer
+    m_multiPages: 1
+    m_ignoreLowLayerManage: 1

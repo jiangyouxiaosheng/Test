@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e45cd7f71d43834ca2e7d0efdeae07f, type: 3}
+  m_Name: oversea
+  m_EditorClassIdentifier: 
+  channel: oversea_ios
+  appId: IOS@BagPackMatch
+  appSecret: 
+  platformType: 9
+  adConfig:
+    reward: []
+    insert: 
+  tkConfig:
+    appId: 2d088fbd5cb9433ebfcf144eb8edea0b
+    serverUrl: https://ss.playwinner.org
+    debug: 0
